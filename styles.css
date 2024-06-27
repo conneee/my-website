@@ -1,0 +1,59 @@
+/* 全局样式 */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f8f9fa; /* 浅灰色背景 */
+    color: #333; /* 深灰色文字 */
+}
+
+header {
+    background-color: #343a40; /* 深灰色头部背景 */
+    color: red; /* 红色文字 */
+    padding: 1rem 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 轻微阴影 */
+}
+
+.section-title {
+    border-bottom: 2px solid #343a40; /* 底部边框与头部背景一致 */
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.75rem;
+}
+
+.btn-primary {
+    background-color: #343a40; /* 深灰色按钮 */
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #495057; /* 深灰色按钮悬停效果 */
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #343a40; /* 深灰色底部背景 */
+    color: #fff; /* 白色文字 */
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* 导航栏样式 */
+.navbar {
+    background-color: #343a40; /* 深色背景 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 轻微阴影 */
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #ff0000; /* 白色文字 */
+    font-weight: light; /* 加粗字体 */
+    font-size: 1.1rem; /* 字体大小 */
+}
+
+.navbar-brand:hover,
+.navbar-nav .nav-link:hover {
+    color: #007bff; /* 悬停颜色 */
+    text-decoration: none; /* 取消下划线 */
+}
